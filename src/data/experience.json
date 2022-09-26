@@ -1,0 +1,128 @@
+[
+  {
+    "company": "Aspire",
+    "location": "Singapore (Remote)",
+    "position": "Senior Frontend Engineer",
+    "date": "Jul 2021 - Present",
+    "responsibility": [
+      "Collaborating with members of the product team to implement new feature developments",
+      "Creating, documenting, and maintaining cuttingedge Vue.js web application",
+      "Building cutting-edge applications and collaborating with the User Experience (UX) tea",
+      "Leading the entire application development life cycle right from concept stage to delivery and post-launch support",
+      "Document the development process, architecture and standard components",
+      "Collaboration with a designer, PM, QA, and backend developer regularly",
+      "Writing readable and clean code that can be understood and scaled by all team members",
+      "Existing apps maintenance, migration & bug fixes",
+      "Debugging API response",
+      "Testing and maintaining interfaces",
+      "Ensure app component scalability and adaptability",
+      "Dealing with state management",
+      "Writing unit and end-to-end tests",
+      "Adding new features and improving existing ones to achieve peak performance",
+      "Developing scalable and maintainable web components",
+      "Error Handling & Reporting",
+      "Performing Github PR and Interviews code reviews",
+      "Keeping up with new web development trends and best practises",
+      "much more..."
+    ],
+    "skills": [
+      "Vue.js",
+      "JavaScript",
+      "TypeScript",
+      "Cypress",
+      "Quasar",
+      "Vuex",
+      "Node.js"
+    ]
+  },
+  {
+    "company": "Innovent Integrated Solutions.",
+    "location": "Abu Dhabi (UAE)",
+    "position": "Front-End Developer",
+    "date": "Jun 2018 - Present",
+    "responsibility": [
+      "Structuring the application as modular, flexible and scalable.",
+      "Collaborated with product team members to implement new feature developments.",
+      "Frequent collaboration with designer and backend developer.",
+      "Existing apps maintenance & bug-fixes.",
+      "Connecting various data sources from our own and external APIs to the user interfaces, both synchronously and asynchronously.",
+      "Debugging API response.",
+      "Testing and maintain interfaces.",
+      "Ensuring scalability and adaptability of designs.",
+      "Dealing with state management.",
+      "Writing automated tests.",
+      "Implementing new features and optimize existing ones to drive maximum performance.",
+      "Developing scalable and maintainable web components.",
+      "Error Handling & Reporting.",
+      "Performing code reviews.",
+      "Implement a pixel perfect responsive design.",
+      "Implementing a live location tracking system for Buses and Cars.",
+      "Streaming Buses Camera's to show Live, and Recorded videos.",
+      "Working on Trips, routes, paths, stops, drop-off, pickup, etc for passengers and students.",
+      "more..."
+    ],
+    "skills": [
+      "Vue.js",
+      "JavaScript",
+      "TypeScript",
+      "Jest",
+      "Quasar",
+      "Element UI",
+      "Google/Leaflet Map",
+      "Web Socket",
+      "TailwindCSS",
+      "Vuex",
+      "Node.js"
+    ]
+  },
+  {
+    "company": "Liimras Digital Agency",
+    "location": "Mumbai (India)",
+    "position": "Front-End Developer",
+    "date": "Apr 2016 - May 2018",
+    "responsibility": [
+      "Implementing the wireframe for websites.",
+      "Manipulating the DOM elements.",
+      "Building WordPress CMS and Blog websites.",
+      "Working with Bootstrap Framework.",
+      "Using SCSS to organize and write less CSS codes.",
+      "Converting designs to real website.",
+      "Requirements gathering, analysis, planning, communication, design, modeling and testing.",
+      "Focusing on User Experience.",
+      "Implemented websites and its landing pages from concept through deployment.",
+      "Collaboration with design and backend team.",
+      "Solving cross-browser compatibility issues.",
+      "more..."
+    ],
+    "skills": [
+      "WordPress",
+      "JavaScript",
+      "jQuery",
+      "PHP",
+      "MySQL",
+      "Node.js"
+    ]
+  },
+  {
+    "company": "Nuha Digital Media Pvt. Ltd.",
+    "location": "Navi Mumbai (India)",
+    "position": "Web Developer & Designer (Freelance)",
+    "date": "Jan 2015 - March 2016",
+    "responsibility": [
+      "Designing Websites.",
+      "Developing the designed websites by using WordPress, HTML, CSS, JQuery, Javascript.",
+      "Developing Responsive web pages.",
+      "Animating the pages and elements.",
+      "Applying UX Principles.",
+      "Developing E-Commerce, Blog and Products websites.",
+      "Performing a mix of maintenance, enhancements, and new development."
+    ],
+    "skills": [
+      "WordPress",
+      "JavaScript",
+      "jQuery",
+      "PHP",
+      "MySQL"
+    ]
+  }
+]

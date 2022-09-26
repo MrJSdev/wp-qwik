@@ -1,0 +1,135 @@
+[
+  {
+    "company": "University of the People",
+    "location": "California (Online)",
+    "position": "Bachelor of Computer Science",
+    "date": "2022"
+  },
+  {
+    "company": "Udemy",
+    "location": "Online",
+    "date": "2022",
+    "position": "How to design & develop REST microservices in Golang (Go)"
+  },
+  {
+    "company": "Udemy",
+    "location": "Online",
+    "date": "2022",
+    "position": "The Complete Developers Guide to MongoDB"
+  },
+  {
+    "company": "Youtube",
+    "location": "Online",
+    "date": "2022",
+    "position": "Master Flutter in Just 8 Hours"
+  },
+  {
+    "company": "Frontend Masters",
+    "location": "Online",
+    "date": "2022",
+    "position": "Testing Web Apps with Cypress"
+  },
+  {
+    "company": "Vue School",
+    "location": "Online",
+    "date": "2021",
+    "position": "Vue.js 3 Fundamentals with the Composition API"
+  },
+  {
+    "company": "Vue School",
+    "location": "Online",
+    "date": "2021",
+    "position": "Storybook with Vue.js"
+  },
+  {
+    "company": "Vue School",
+    "location": "Online",
+    "date": "2021",
+    "position": "Testing Vue.js Components"
+  },
+
+  {
+    "company": "Frontend Masters",
+    "location": "Online",
+    "date": "2019",
+    "position": "A Practical Guide to Algorithms with JavaScript"
+  },
+  {
+    "company": "Youtube",
+    "location": "Online",
+    "date": "2019",
+    "position": "Javascript Data Structure & Algorithms"
+  },
+  {
+    "company": "Frontend Masters",
+    "location": "Online",
+    "date": "2019",
+    "position": "TypeScript 3 Fundamentals"
+  },
+  {
+    "company": "Frontend Masters",
+    "location": "Online",
+    "date": "2019",
+    "position": "Deep Javascript Foundations"
+  },
+  {
+    "company": "Udemy",
+    "location": "Online",
+    "date": "2019",
+    "position": "Nuxt.JS"
+  },
+  {
+    "company": "Udemy",
+    "location": "Online",
+    "date": "2018",
+    "position": "Vue.JS"
+  },
+  {
+    "company": "Udemy",
+    "location": "Online",
+    "date": "2018",
+    "position": "React Native"
+  },
+  {
+    "company": "TeamTreeHouse",
+    "location": "Online",
+    "date": "2017",
+    "position": "MySQL"
+  },
+  {
+    "company": "Udemy",
+    "location": "Online",
+    "date": "2016",
+    "position": "Node.JS (Asynchronous, Express, etc)"
+  },
+  {
+    "company": "Udemy",
+    "location": "Online",
+    "date": "2015",
+    "position": "Sass"
+  },
+  {
+    "company": "Udemy",
+    "location": "Online",
+    "date": "2015",
+    "position": "Javascript"
+  },
+  {
+    "company": "TreeHouse",
+    "location": "Online",
+    "date": "2014",
+    "position": "WordPress"
+  },
+  {
+    "company": "Sahara Computer Institute",
+    "location": "Mumbai",
+    "date": "2012",
+    "position": "Advanced Web Development"
+  },
+  {
+    "company": "Sahara Computer Institute",
+    "location": "Mumbai",
+    "date": "2011",
+    "position": "Web Designing"
+  }
+]
