@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,500i,600,700,800,900&display=swap');
+
+* {
+  font-family: 'Montserrat', Courier, monospace;
+}
+
+.bottom-b-100 {
+  bottom: -100px;
+}
+@media (max-width: 767px) and (min-width: 300px) {
+  .bottom-b-100 {
+    bottom: 0;
+  }
+}

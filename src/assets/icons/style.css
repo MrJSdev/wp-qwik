@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?8iq711');
+  src:  url('fonts/icomoon.eot?8iq711#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?8iq711') format('truetype'),
+    url('fonts/icomoon.woff?8iq711') format('woff'),
+    url('fonts/icomoon.svg?8iq711#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-typescript:before {
+  content: "\e916";
+}
+.icon-typescript1:before {
+  content: "\e900";
+}
+.icon-go-lang:before {
+  content: "\e901";
+}
+.icon-react:before {
+  content: "\e902";
+}
+.icon-nativescript:before {
+  content: "\e903";
+}
+.icon-javascript:before {
+  content: "\e904";
+}
+.icon-sass:before {
+  content: "\e905";
+}
+.icon-css3:before {
+  content: "\e906";
+}
+.icon-html5:before {
+  content: "\e907";
+}
+.icon-vue-dot-js:before {
+  content: "\e908";
+}
+.icon-nuxt-dot-js:before {
+  content: "\e909";
+}
+.icon-node-dot-js:before {
+  content: "\e90a";
+}
+.icon-arrow-circle-o-right:before {
+  content: "\e90b";
+}
+.icon-long-arrow-right:before {
+  content: "\e90c";
+}
+.icon-css31:before {
+  content: "\e90d";
+}
+.icon-image:before {
+  content: "\e90e";
+}
+.icon-html51:before {
+  content: "\e90f";
+}
+.icon-globe:before {
+  content: "\e910";
+}
+.icon-hand-o-right:before {
+  content: "\e911";
+}
+.icon-tailwindcss:before {
+  content: "\e912";
+}
+.icon-element-ui:before {
+  content: "\e913";
+}
+.icon-phone:before {
+  content: "\e914";
+}
+.icon-clock:before {
+  content: "\e94e";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-database:before {
+  content: "\e964";
+}
+.icon-stackoverflow:before {
+  content: "\e915";
+  color: #fe7a16;
+}

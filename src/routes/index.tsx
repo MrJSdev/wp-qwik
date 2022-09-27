@@ -1,133 +1,36 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
-import { Link } from '@builder.io/qwik-city';
+import Hero from '~/components/main/hero';
+import You from '~/components/main/you';
+import Skill from '~/components/main/skill';
+import Experience from '~/components/main/experience';
+import '~/assets/icons/style.css';
+import '~/assets/css/global.css';
 
 export default component$(() => {
   return (
-    <div>
-      <h1>
-        Welcome to Qwik <span class="lightning">⚡️</span>
-      </h1>
-
-      <ul>
-        <li>
-          Check out the <code>src/routes</code> directory to get started.
-        </li>
-        <li>
-          Add integrations with <code>npm run qwik add</code>.
-        </li>
-        <li>
-          More info about development in <code>README.md</code>
-        </li>
-      </ul>
-
-      <h2>Commands</h2>
-
-      <table class="commands">
-        <tr>
-          <td>
-            <code>npm run dev</code>
-          </td>
-          <td>Start the dev server and watch for changes.</td>
-        </tr>
-        <tr>
-          <td>
-            <code>npm run preview</code>
-          </td>
-          <td>Production build and start preview server.</td>
-        </tr>
-        <tr>
-          <td>
-            <code>npm run build</code>
-          </td>
-          <td>Production build.</td>
-        </tr>
-        <tr>
-          <td>
-            <code>npm run qwik add</code>
-          </td>
-          <td>Select an integration to add.</td>
-        </tr>
-      </table>
-
-      <h2>Add Integrations</h2>
-
-      <table class="commands">
-        <tr>
-          <td>
-            <code>npm run qwik add cloudflare-pages</code>
-          </td>
-          <td>
-            <a href="https://developers.cloudflare.com/pages" target="_blank">
-              Cloudflare Pages Server
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>npm run qwik add express</code>
-          </td>
-          <td>
-            <a href="https://expressjs.com/" target="_blank">
-              Nodejs Express Server
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>npm run qwik add netlify-edge</code>
-          </td>
-          <td>
-            <a href="https://docs.netlify.com/" target="_blank">
-              Netlify Edge Functions
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <code>npm run qwik add static-node</code>
-          </td>
-          <td>
-            <a
-              href="https://qwik.builder.io/qwikcity/static-site-generation/overview/"
-              target="_blank"
-            >
-              Static Site Generation (SSG)
-            </a>
-          </td>
-        </tr>
-      </table>
-
-      <h2>Community</h2>
-
-      <ul>
-        <li>
-          <span>Questions or just want to say hi? </span>
-          <a href="https://qwik.builder.io/chat" target="_blank">
-            Chat on discord!
-          </a>
-        </li>
-        <li>
-          <span>Follow </span>
-          <a href="https://twitter.com/QwikDev" target="_blank">
-            @QwikDev
-          </a>
-          <span> on Twitter</span>
-        </li>
-        <li>
-          <span>Open issues and contribute on </span>
-          <a href="https://github.com/BuilderIO/qwik" target="_blank">
-            Github
-          </a>
-        </li>
-      </ul>
-      <Link class="mindblow" href="/flower">
-        Blow my mind 🤯
-      </Link>
+    <>
+    <div className="relative bg-primary">
+      <Hero />
+      <div className="absolute right-0 sm:relative sm:bottom-0 bottom-b-100 text-center left-0 w-full -mb-7">
+        <div className="w-8/12 sm:w-full sm:shadow-md inline-block bg-white rounded-lg px-10 py-8 shadow-lg">
+          <You />
+        </div>
+      </div>
     </div>
+    <div className="mx-auto sm:px-0 sm:min-w-full bg-white rounded-t-lg">
+      <Skill />
+    </div>
+    <div className="bg-gray-200 mx-auto px-2 sm:min-w-full ">
+      {/* <Portfolio /> */}
+    </div>
+    <div className="mx-auto px-2 rounded-b-lg bg-gray-100 sm:min-w-full">
+      <Experience />
+    </div>
+    </>
   );
 });
 
 export const head: DocumentHead = {
-  title: 'Welcome to Qwik',
+  title: 'Mr. JS Developer',
 };

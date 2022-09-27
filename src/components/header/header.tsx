@@ -1,32 +1,13 @@
 import { component$ } from '@builder.io/qwik';
-import { QwikLogo } from '../icons/qwik';
 
 export default component$(() => {
+  const logo = 'images/mrjs-logo.svg';
 
   return (
-    <header>
-      <div class="logo">
-        <a href="https://qwik.builder.io/" target="_blank">
-          <QwikLogo />
-        </a>
+    <header className="absolute left-auto right-auto z-10">
+      <div className="container mx-auto">
+        <img src={logo} className="h-12" alt="Logo" />  
       </div>
-      <ul>
-        <li>
-          <a href="https://qwik.builder.io/docs/components/overview/" target="_blank">
-            Docs
-          </a>
-        </li>
-        <li>
-          <a href="https://qwik.builder.io/examples/introduction/hello-world/" target="_blank">
-            Examples
-          </a>
-        </li>
-        <li>
-          <a href="https://qwik.builder.io/tutorial/welcome/overview/" target="_blank">
-            Tutorials
-          </a>
-        </li>
-      </ul>
     </header>
   );
 });
