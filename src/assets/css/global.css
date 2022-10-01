@@ -4,6 +4,10 @@
   font-family: 'Montserrat', Courier, monospace;
 }
 
+body{
+  background-color: #0d3e81;
+}
+
 .bottom-b-100 {
   bottom: -100px;
 }
@@ -11,4 +15,9 @@
   .bottom-b-100 {
     bottom: 0;
   }
+}
+
+.bg-gradient{
+  background: rgb(0,137,255);
+  background: linear-gradient(90deg, rgba(0,137,255,1) 0%, rgba(0,206,255,1) 100%);
 }

@@ -12,19 +12,19 @@ export interface ExperienceProps {
 export default component$((props: ExperienceProps) => {
 
   return (
-    <div className="item flex flex-shrink flex-wrap">
-      <template v-if="title === 'Experience'">
+    <div className="item flex flex-initial flex-wrap">
+      {props.title === 'Experience' && (
         <div className="w-8 relative mx-w-4">
           <div className="inline-block relative z-10 bg-green-400 p-1 rounded-full">
             <div className="p-1 bg-green-400 border-white border-2 rounded-full" />
           </div>
-          {props.index === props.total && (
+          {props.index !== props.total && (
             <div className="line absolute top-0 bottom-0 mt-5 left-0 w-1 ml-2 bg-gray-300" />
           )}
         </div>
-      </template>
+      )}
 
-      <div className={'flex-1 sm:w-full sm:px-0 pb-6 px-2' + props.title === 'Experience' ? 'pr-5' : 'pl-5'}>
+      <div className={`flex-1 sm:w-full sm:px-0 pb-6 px-2 ${props.title === 'Experience' ? 'pr-5' : 'pl-5'}`}>
         <div className="bg-white p-5 rounded shadow-md border border-dashed border-green-300">
           <div className="flex flex-wrap">
             <h3 className="uppercase flex-1 text-lg font-semibold text-gray-900 mb-1">
@@ -42,7 +42,7 @@ export default component$((props: ExperienceProps) => {
               {props.experience.location}
             </div>
           </div>
-          
+
           {props.title === 'Experience' && (
             <>
               {/* Skills list */}
@@ -69,17 +69,15 @@ export default component$((props: ExperienceProps) => {
       </div>
 
       {props.title === 'Education' && (
-        <>
-          <div className="w-8 text-right relative mx-w-4">
-            <div className="inline-block relative z-10 bg-green-400 p-1 rounded-full">
-              <div className="p-1 bg-green-400 border-white border-2 rounded-full" />
-            </div>
-
-            {props.index !== props.total && (
-              <div className="line absolute top-0 bottom-0 mt-5 right-0 w-1 mr-2 bg-gray-300" />
-            )}
+        <div className="w-8 text-right relative mx-w-4">
+          <div className="inline-block relative z-10 bg-green-400 p-1 rounded-full">
+            <div className="p-1 bg-green-400 border-white border-2 rounded-full" />
           </div>
-        </>
+
+          {props.index !== props.total && (
+            <div className="line absolute top-0 bottom-0 mt-5 right-0 w-1 mr-2 bg-gray-300" />
+          )}
+        </div>
       )}
 
     </div>

@@ -25,3 +25,10 @@ export type Skill = {
   percentage: string;
   startDate?: Date;
 }
+
+export type RecentWork = {
+  id: number;
+  company: string;
+  workOn: string;
+  thumbnail: string;
+}

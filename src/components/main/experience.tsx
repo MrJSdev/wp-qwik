@@ -19,7 +19,7 @@ export default component$(() => {
               <ExperienceItem
                 title="Experience"
                 experience={experience}
-                total={experiences.length}
+                total={experiences.length - 1}
                 index={index} />)
           )}
         </div>
@@ -30,7 +30,7 @@ export default component$(() => {
               <ExperienceItem
                 title="Education"
                 experience={experience}
-                total={experiences.length}
+                total={experiences.length - 1}
                 index={index} />)
           )}
         </div>
