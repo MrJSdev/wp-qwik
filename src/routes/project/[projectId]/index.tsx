@@ -5,7 +5,6 @@ import projects from '~/data/works.json';
 
 export default component$(() => {
   const location = useLocation();
-  console.log({ location })
 
   const project = projects.find((project) => project.id === parseInt(location.params.projectId));
 

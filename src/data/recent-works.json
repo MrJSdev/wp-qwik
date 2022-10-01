@@ -3,36 +3,36 @@
     "id": 1,
     "company": "Emirates Transport",
     "workOn": "Fleet Management App",
-    "thumbnail": "emirates-transport.jpg"
+    "thumbnail": "emirates-transport.avif"
   },
   {
     "id": 2,
     "company": "DOT (Department of Transport)",
     "workOn": "Transport Companies Management System",
-    "thumbnail": "dot.jpg"
+    "thumbnail": "dot.avif"
   },
   {
     "id": 3,
     "company": "Sharjah Youth Center",
     "workOn": "Center's Fleet Management System",
-    "thumbnail": "sharjah.jpg"
+    "thumbnail": "sharjah.avif"
   },
   {
     "id": 4,
     "company": "ENS (Emirates National School)",
     "workOn": "School Transport System",
-    "thumbnail": "ens.jpg"
+    "thumbnail": "ens.avif"
   },
   {
     "id": 5,
     "company": "Dubai Police",
     "workOn": "Fleet Management System",
-    "thumbnail": "dubai-police.jpg"
+    "thumbnail": "dubai-police.avif"
   },
   {
     "id": 6,
     "company": "Abu Dhabi Police",
     "workOn": "Licence Plate Recognition System",
-    "thumbnail": "abu-dhabi-police.jpg"
+    "thumbnail": "abu-dhabi-police.avif"
   }
 ]

@@ -3,7 +3,7 @@ import { DocumentHead } from '@builder.io/qwik-city';
 
 export default component$(() => {
 
-  const profilePhoto = 'images/riyaz-profile-photo.jpg';
+  const profilePhoto = 'images/riyaz-profile-photo.avif';
 
   return (
     <div className="flex flex-wrap sm:inline-block text-left">
